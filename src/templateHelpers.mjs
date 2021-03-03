@@ -26,8 +26,6 @@ export function createElement(tagName, { attrs = {}, children = [] } = {}) {
   return { ...Object.create(null), attrs, children, tagName };
 }
 
-export { default as defineElement } from './defineElement.mjs';
-
 export function diff(oldVTree, newVTree) {
   if (newVTree === undefined) {
     return node => {
