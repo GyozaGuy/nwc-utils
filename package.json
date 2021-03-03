@@ -1,0 +1,22 @@
+{
+  "name": "nwc-utils",
+  "version": "1.0.0",
+  "description": "Helpers to reduce boilerplate when working with native web components",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyozaGuy/nwc-utils.git"
+  },
+  "author": "GyozaGuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GyozaGuy/nwc-utils/issues"
+  },
+  "homepage": "https://github.com/GyozaGuy/nwc-utils#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
