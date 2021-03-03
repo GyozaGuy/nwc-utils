@@ -58,10 +58,10 @@ export default defineElement(
     @renderOnChange
     count = 0;
 
-    render({ count }) {
+    render() {
       return html`
         <section>
-          <div>Current count: ${count}</div>
+          <div>Current count: ${this.count}</div>
           <button onclick="${() => this.count--}" type="button">Decrement</button>
           <button onclick="${() => this.count++}" type="button">Increment</button>
         </section>
