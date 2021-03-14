@@ -176,7 +176,7 @@ export function htmlToDom(template) {
   templateEl.innerHTML = template;
 
   if (templateEl.content.childNodes.length > 1) {
-    const wrapper = document.createElement('span');
+    const wrapper = document.createElement('div');
     wrapper.dataset.componentWrapper = '';
     wrapper.appendChild(templateEl.content);
     templateEl.content.appendChild(wrapper);
