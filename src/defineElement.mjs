@@ -76,7 +76,7 @@ export default function(name, ComponentClass) {
           value = newVal;
 
           if (typeof this.propChanged === 'function') {
-            this.propChanged(name, value);
+            this.propChanged(propName, value);
           }
 
           if ((value || value === 0) && typeof value !== 'object') {
